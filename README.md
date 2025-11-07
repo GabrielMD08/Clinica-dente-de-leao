@@ -25,8 +25,8 @@ Siga os passos abaixo para preparar o ambiente e rodar o projeto.
 ### 1. Clonar e Acessar o Repositório
 
 ```bash
-git clone [https://www.youtube.com/shorts/3mMG25WHLkU](https://www.youtube.com/shorts/3mMG25WHLkU)
-cd [NOME-DO-SEU-PROJETO]
+git clone https://github.com/GabrielMD08/Clinica-dente-de-leao.git
+cd Clinica-dente-de-leao
 ```
 
 ### 2. Configurar e Ativar o Ambiente Virtual (venv)
@@ -58,7 +58,7 @@ Este projeto segue o padrão de segurança Twelve-Factor App e utiliza o `python
     ```
 3. Cole a chave gerada no arquivo .env no seguinte formato:
     ```
-    SECRET_KEY=cole_a_chave_gerada_aqui
+    SECRET_KEY= {cole_a_chave_gerada_aqui}
     DEBUG=True
     ```
 ### 5. Executar Migrações e Iniciar Servidor
